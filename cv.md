@@ -9,11 +9,11 @@
 - Phone: +34 692 676 569 
 - GitHub: @4037637 
 
- ### Profile:
+### Profile:
 
  I am 15 years old teenager from the city of Odessa. I am studying at the Odessa Lyceum in the 9th grade. Now I live in Barcelona. I am studying at RS School in order to teach others and earn money in the future. My strengths: purposefulness, problem solving, multitasking.
 
-  ### Skills:
+### Skills:
 
   Python programming
 
@@ -41,7 +41,7 @@ prize.setpos(x1, y1)
 prize.dot(18, "green")
 prize_life = 150`
 ```
- ### Education:
+### Education:
   
 > IT2School, Odessa (2021)
 “Python - elementary level”
@@ -49,8 +49,8 @@ prize_life = 150`
 >stepik.org (2020)
 “Python Programming”
 
- ### Work experience: 
+### Work experience: 
  None 
 
- ### English level: 
+### English level: 
  Pre-Intermediate
