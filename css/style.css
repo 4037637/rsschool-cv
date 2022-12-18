@@ -1,0 +1,71 @@
+html,
+body {
+    font-family: Arial, serif;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: Arial, serif;
+    padding-left: 20px
+}
+.title1 {
+font-size: 40px;
+animation: color-change 3s infinite
+}
+.title2 {
+font-size: 25px;
+border: 3px solid #42502f;
+background-color: rgb(207, 206, 155);
+}
+.education {
+font-style: italic;
+}
+@keyframes color-change {
+0% {
+color: orange;
+}    
+50% {
+color: red;
+}   
+100% {
+color: orange;
+}
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(59, 21, 21);
+}
+.footer-gh {
+    position: relative;
+    padding-left: 40px;
+}
+.footer-year {
+    justify-self:center;
+}
+.footer-rsschool {
+    justify-self: end;
+
+}
+.nav1 {
+  display: block;
+  background: rgb(1, 1, 83);
+}
+.nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-el {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
