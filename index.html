@@ -35,25 +35,21 @@
     <main class="main">
         <img src="img/img_6262.jpg" alt="Photo of Gleb Chornenkiy" width="300" height="375">
         <h1 class="title1"> Gleb Chornenkiy </h1>
-    
         <h2 class="title2">Contact by</h2>
         <ul>
             <li> Email:  4037637@gmail.com </li>
             <li> Phone: +34 692 676 569 </li>
             <li> GitHub: @4037637 </li>
-        </ul>  
-        <a id="profile"></a>
-        <h2 class="title2">Profile</h2>
+        </ul>
+        <h2 class="title2"><a id="profile">Profile</a></h2>
         <p>I am 15 years old teenager from the city of Odessa. I am studying at the Odessa Lyceum in the 9th grade. Now I live in Barcelona. I am studying at RS School in order to teach others and earn money in the future. My strengths: purposefulness, problem solving, multitasking. </p>
-        <a id="skills"></a>
-        <h2 class="title2">Skills</h2>
+        <h2 class="title2"><a id="skills">Skills</a></h2>
         <ul>
             <li>Python programming</li>
             <li>HTML Basics</li>
             <li>CSS Basics</li>
         </ul>
-        <a id="code-example"></a>
-        <h2 class="title2">Code example</h2>
+        <h2 class="title2"><a id="code-example">Code example</a></h2>
         <details>
             <summary>Part of 'Snake'</summary>
                 <pre>
@@ -62,41 +58,37 @@ import turtle
 import random
 import time
 import winsound
-
+<br>
 def add_new_prize():
-
+<br>
 global s, prize_life, prize
-    
-    i = sizeScr / (s * 2) - 1
-    x1 = snake[0][0] # for verify prize on body
-    y1 = snake[0][1]
-    while [x1, y1] in snake: 
-        x1 = random.randint(-i, i) * s
-        y1 = random.randint(-i, i) * s
-
+<br>
+i = sizeScr / (s * 2) - 1
+x1 = snake[0][0] # for verify prize on body
+y1 = snake[0][1]
+while [x1, y1] in snake: 
+    x1 = random.randint(-i, i) * s
+    y1 = random.randint(-i, i) * s
+<br>
 prize.setpos(x1, y1)
 prize.dot(18, "green")
 prize_life = 150`
-
                     </code>
                 </pre>
             </details>
-        <a id="education"></a>
-        <h2 class="title2">Education</h2>
+        <h2 class="title2"><a id="education">Education</a></h2>
         <ul>
             <li class="education"><pre>IT2School, Odessa (2021)
 “Python - elementary level”</pre></li>
             <li class="education"><pre>stepik.org (2020)
 “Python Programming”</pre></li>
         </ul>
-        <a id="work-experience"></a>
-        <h2 class="title2">Work experience</h2>
+        <h2 class="title2"><a id="work-experience">Work experience</a></h2>
         <a href="https://scratch.mit.edu/projects/544364713/">Scratch: tic-tac-toe</a>
         <br>
-        <a href="https://scratch.mit.edu/projects/544365286/">Scratch: arkanoid</a> 
-        <a id="english-level"></a>
-        <h2 class="title2">English level</h2>
-        <p>Pre-Intermediate</p>   
+        <a href="https://scratch.mit.edu/projects/544365286/">Scratch: arkanoid</a>
+        <h2 class="title2"><a id="english-level">English level</a></h2>
+        <p>Pre-Intermediate</p>
     </main>
     <footer class="footer">
         <a class="footer-gh" href="https://github.com/4037637">My GitHub</a>
