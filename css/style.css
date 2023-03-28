@@ -74,3 +74,9 @@ color: orange;
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+.python-text {
+    color:#42502f;
+    line-height: 12px;
+    font-weight: 500;
+}
